@@ -25,7 +25,7 @@ public class ContaTerminal {  // Define a classe chamada 'ContaTerminal'
         scanner.close();  // Após capturar todas as entradas, o scanner é fechado para liberar os recursos
 
         // Exibir a mensagem final para o cliente com todos os detalhes
-        System.out.println("Olá " + nome + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + 
-        ", o seu número de conta é " + numeroUsuario + " e seu saldo de R$ " + saldo + " já está disponível para saque.");
+        System.out.println("Olá " + nome + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia );
+        System.out.println("Seu numero de conta é " + numeroUsuario + " e seu saldo de R$ " + saldo + " ja esta disponivel para saque.");
     }
 }
